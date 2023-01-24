@@ -26,126 +26,123 @@ const Reviews = () => {
 
   return (
     <section className="review-sec py-100" id="review_sec">
-      <div className="container">
-        <div className="hold-head text-center">
-          <h3 className="title">Reviews</h3>
-          <p className="desc">words from our food lovers</p>
-        </div>
-        <Carousel
-          autoPlay
-          infiniteLoop
-          centerMode={isCenterMode}
-          showArrows={false}
-          showStatus={false}
-          showIndicators={false}
-          centerSlidePercentage={70}
-          swipeable={true}
-          emulateTouch={true}
-          showThumbs={false}
-        >
-          <div className="one-card">
-            <div className="user-info">
-              <figure className="hold-img">
-                <img src={user1} alt="" className="img-fluid" />
-              </figure>
-              <div className="hold-body">
-                <h4 className="name">Alex andrina</h4>
-                <ul>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <p className="user-content">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at
-              mattis cras. Quisque commodo mattis ornare a nec odio. Pulvinar
-              orci, egestas eget nulla duis at iaculis nunc, elit. “
-            </p>
-          </div>
-
-          <div className="one-card">
-            <div className="user-info">
-              <figure className="hold-img">
-                <img src={user2} alt="" className="img-fluid" />
-              </figure>
-              <div className="hold-body">
-                <h4 className="name">Alex andrina</h4>
-                <ul>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <p className="user-content">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at
-              mattis cras. Quisque commodo mattis ornare a nec odio. Pulvinar
-              orci, egestas eget nulla duis at iaculis nunc, elit. “
-            </p>
-          </div>
-
-          <div className="one-card">
-            <div className="user-info">
-              <figure className="hold-img">
-                <img src={user1} alt="" className="img-fluid" />
-              </figure>
-              <div className="hold-body">
-                <h4 className="name">Alex andrina</h4>
-                <ul>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                  <li>
-                    <img src={star} alt="" className="img-fluid" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <p className="user-content">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at
-              mattis cras. Quisque commodo mattis ornare a nec odio. Pulvinar
-              orci, egestas eget nulla duis at iaculis nunc, elit. “
-            </p>
-          </div>
-        </Carousel>
+      <div className="hold-head text-center">
+        <h3 className="title">Reviews</h3>
+        <p className="desc">words from our food lovers</p>
       </div>
+      <Carousel
+        autoPlay
+        centerMode={isCenterMode}
+        showArrows={false}
+        showStatus={false}
+        showIndicators={false}
+        centerSlidePercentage={60}
+        swipeable={true}
+        emulateTouch={true}
+        showThumbs={false}
+      >
+        <div className="one-card">
+          <div className="user-info">
+            <figure className="hold-img">
+              <img src={user1} alt="" className="img-fluid" />
+            </figure>
+            <div className="hold-body">
+              <h4 className="name">Alex andrina</h4>
+              <ul>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p className="user-content">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at
+            mattis cras. Quisque commodo mattis ornare a nec odio. Pulvinar
+            orci, egestas eget nulla duis at iaculis nunc, elit. “
+          </p>
+        </div>
+
+        <div className="one-card">
+          <div className="user-info">
+            <figure className="hold-img">
+              <img src={user2} alt="" className="img-fluid" />
+            </figure>
+            <div className="hold-body">
+              <h4 className="name">Alex andrina</h4>
+              <ul>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p className="user-content">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at
+            mattis cras. Quisque commodo mattis ornare a nec odio. Pulvinar
+            orci, egestas eget nulla duis at iaculis nunc, elit. “
+          </p>
+        </div>
+
+        <div className="one-card">
+          <div className="user-info">
+            <figure className="hold-img">
+              <img src={user1} alt="" className="img-fluid" />
+            </figure>
+            <div className="hold-body">
+              <h4 className="name">Alex andrina</h4>
+              <ul>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+                <li>
+                  <img src={star} alt="" className="img-fluid" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p className="user-content">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at
+            mattis cras. Quisque commodo mattis ornare a nec odio. Pulvinar
+            orci, egestas eget nulla duis at iaculis nunc, elit. “
+          </p>
+        </div>
+      </Carousel>
     </section>
   );
 };
